@@ -1,0 +1,49 @@
+.stripe {
+    height: calc(100vh - 120px);
+    width: 100%;
+    max-height: 100px;
+    background-size: cover;
+    background-color: #1784AF;
+}
+
+#avatar {
+    border-radius: 50px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+.narrowIt {
+    max-width: 70%;
+}
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.rule {
+    margin-top: 130px;
+}
+
+
+
+
